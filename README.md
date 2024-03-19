@@ -14,7 +14,7 @@ In this repository, you'll find my submissions for various CSS battles challenge
 
 #### Daily Target
 
-- [03-19-24](./daily-targets/01-03-19-24/)
+- [2024](./daily-targets/2024/)
 
 ### How to Run
 
