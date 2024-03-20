@@ -1,0 +1,55 @@
+# CSSBattle Results - February 27, 2024
+
+## Date: February 27, 2024
+
+### Screenshots
+
+#### Result Screen
+
+![Result Screen](screenshots/result-screen.png)
+
+#### CSS Photo
+
+![CSS Photo](screenshots/css-image.png)
+
+### HTML Code
+
+```html
+<div>
+  <div class="oval"></div>
+  <div class="top-circle"></div>
+  <div class="bottom-circle"></div>
+</div>
+<style>
+  body {
+    background-color: #2e0040;
+  }
+  .oval {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 75px;
+    background: #a94ea4;
+  }
+  .top-circle {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #d3b1d6;
+  }
+  .bottom-circle {
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #d3b1d6;
+  }
+</style>
+```
