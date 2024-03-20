@@ -1,0 +1,92 @@
+# CSSBattle Results - February 22, 2024
+
+## Date: February 22, 2024
+
+### Screenshots
+
+#### Result Screen
+
+![Result Screen](screenshots/result-screen.png)
+
+#### CSS Photo
+
+![CSS Photo](screenshots/css-image.png)
+
+### HTML Code
+
+```html
+<div>
+  <div class="circle-outer one-outer"></div>
+  <div class="circle-inner one-inner"></div>
+  <div class="circle-outer two-outer"></div>
+  <div class="circle-inner two-inner"></div>
+  <div class="circle-outer three-outer"></div>
+  <div class="circle-inner three-inner"></div>
+  <div class="stripe one"></div>
+  <div class="stripe two"></div>
+  <div class="stripe three"></div>
+</div>
+<style>
+  body {
+    background-color: #0d2328;
+  }
+  .circle-outer {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #9ed7f8;
+  }
+  .one-outer {
+    top: 140px;
+    left: 50px;
+  }
+  .two-outer {
+    top: 40px;
+    left: 150px;
+  }
+  .three-outer {
+    top: 140px;
+    right: 50px;
+  }
+  .circle-inner {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #0d2328;
+  }
+  .one-inner {
+    top: 160px;
+    left: 70px;
+  }
+  .two-inner {
+    top: 60px;
+    left: 170px;
+  }
+  .three-inner {
+    top: 160px;
+    right: 70px;
+  }
+  .stripe {
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    background-color: #9ed7f8;
+  }
+
+  .one {
+    bottom: 0px;
+    left: 90px;
+  }
+  .two {
+    height: 180px;
+    bottom: 0px;
+    left: 190px;
+  }
+  .three {
+    bottom: 0px;
+    right: 90px;
+  }
+</style>
+```
