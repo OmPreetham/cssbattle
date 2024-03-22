@@ -1,0 +1,66 @@
+# CSSBattle Results - March 12, 2024
+
+## Date: March 12, 2024
+
+### Screenshots
+
+#### Result Screen
+
+![Result Screen](screenshots/result-screen.png)
+
+#### CSS Photo
+
+![CSS Photo](screenshots/css-image.png)
+
+### HTML Code
+
+```html
+<div>
+  <div class="so sone"></div>
+  <div class="so stwo"></div>
+  <div class="bo one"></div>
+  <div class="bo two"></div>
+  <div class="rect"></div>
+</div>
+<style>
+  body {
+    background: #085328;
+  }
+  .so {
+    position: absolute;
+    left: 130px;
+    width: 140px;
+    height: 30px;
+    border-radius: 50px;
+    background: #0a9949;
+  }
+  .sone {
+    top: 70px;
+  }
+  .stwo {
+    bottom: 70px;
+  }
+  .bo {
+    position: absolute;
+    left: 110px;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    background: #49c85b;
+  }
+  .one {
+    top: 50px;
+  }
+  .two {
+    bottom: 50px;
+  }
+  .rect {
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    width: 40px;
+    height: 170px;
+    background: #49c85b;
+  }
+</style>
+```
